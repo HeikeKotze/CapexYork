@@ -11,7 +11,7 @@ namespace CapexYork
 {
 
 
-    public partial class WebForm1
+    public partial class _MainRequestForm
     {
 
         /// <summary>
@@ -60,13 +60,13 @@ namespace CapexYork
         protected global::System.Web.UI.WebControls.TextBox txtProjectTitle;
 
         /// <summary>
-        /// txtMillorDepartment control.
+        /// drpMillorDepartment control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMillorDepartment;
+        protected global::System.Web.UI.WebControls.DropDownList drpMillorDepartment;
 
         /// <summary>
         /// txtProjectInitiated control.
@@ -105,13 +105,13 @@ namespace CapexYork
         protected global::System.Web.UI.WebControls.DropDownList drpProjectClassification;
 
         /// <summary>
-        /// MyBox control.
+        /// Description control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MyBox;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea Description;
 
         /// <summary>
         /// txtAmountThisRequest control.
@@ -204,24 +204,6 @@ namespace CapexYork
         protected global::System.Web.UI.WebControls.TextBox txtProjectManager;
 
         /// <summary>
-        /// chbAuthorizations control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList chbAuthorizations;
-
-        /// <summary>
-        /// txtLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txtLabel;
-
-        /// <summary>
         /// btnSubmit control.
         /// </summary>
         /// <remarks>
@@ -238,5 +220,14 @@ namespace CapexYork
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnClear;
+
+        /// <summary>
+        /// btnBack control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnBack;
     }
 }
